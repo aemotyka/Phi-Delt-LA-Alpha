@@ -5,6 +5,7 @@ body {
     box-sizing: border-box;
     background-color: #0D1126;
     color: white;
+    padding-top: 125px;
 }
 
 .navbar-container {
@@ -12,6 +13,10 @@ body {
     background: #1E2746;
     padding: 15px 0;
     border-bottom: 3px solid #6DB2DA;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .navbar-container h1 {
